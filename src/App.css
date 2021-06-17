@@ -1,7 +1,49 @@
-.App {
+body {
   text-align: center;
+  justify-content: center;
 }
 
-.card container { 
-max-width: 257px;
+.username {
+  margin-top: 100px !important;
+  width: 300px;
+}
+
+.password {
+  width:300px;
+}
+
+Button {
+  margin-top: 30px !important;
+  width:300px;
+}
+
+h1 {
+  text-align: left;
+  margin-left: 240px;
+  margin-top: 40px;
+  color: gray;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.Form {
+  width: 180px;
+}
+
+.card1 {
+  width:220px;
+  margin-right: 40px;
+}
+
+.card2 {
+  width: 220px;
+  margin-right: 40px;
+}
+
+.card3 {
+  width: 220px;
 }
