@@ -10,7 +10,7 @@ class Appbar extends Component {
         <Toolbar>
           <Typography component="div">
             <Box fontWeight="frontWeightBold" m={2}>
-              Fu Fu's Music App
+              Fu's Music App
             </Box>
             </Typography> 
         </Toolbar>

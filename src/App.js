@@ -4,7 +4,6 @@ import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
 import Dashboard from './components/Dashboard';
 import Appbar from './components/Appbar';
-// import Test from './components/test';
 
 class App extends Component {
 
@@ -20,33 +19,33 @@ class App extends Component {
     if (this.state.loggedIn) {
       return <Dashboard />
     } else {
-    
-  return (
-      <div>
-        <Appbar />
-        <br />
-            <TextField className='username'
-              id="standard-input"
-              label="Username*"
-              type="username"
-              autoComplete="current-password"
-              margin="normal"
-            />
 
-            <br />
-            <TextField className='password'
-              id="standard-password-input"
-              lable="Password*"
-              type="password"
-              autoComlete="current-password"
-              margin="normal"
-            />
-            <br />
-            <Button onClick={this.handleClick} variant="contained" color="primary">
-              Login
-        </Button>
-          </div>
-    )};
+      return (
+        <div>
+          <Appbar />
+          <br />
+          <br />
+          <br />
+          <br />
+          <TextField
+            label="Username"
+          />
+          <br />
+          <TextField
+            label="Password"
+            type="password"
+          />
+          <br />
+          <Button
+            onClick={this.handleClick}
+            variant="contained"
+            color="primary"
+          >
+            Login
+          </Button>
+        </div>
+      )
+    };
   }
 }
 
